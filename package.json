@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Room Service v2.0",
   "main": "app.js",
+  "engines":{"node":"10.15.3"},
   "scripts": {
    "start":"node app.js",
     "heroku-postbuild": "cd browser && npm install && npm run build"
