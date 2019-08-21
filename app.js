@@ -1,11 +1,10 @@
 const express = require("express");
-//const routes = require("./routes/routes");
 const fs = require("fs");
 const path = require("path")
 const proxy = require("express-http-proxy");
 const logger = require("morgan");
 const mongoClient = require("mongodb").MongoClient;
-const URL = process.env.MONGDB_URI || "mongodb://localhost:27017/"
+const URL = process.env.MONGDB_URI || "mongodb://parsley:k001Zro*@ds155626.mlab.com:55626/heroku_1q48k0qr"
 const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 8000;
